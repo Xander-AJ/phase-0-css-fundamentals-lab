@@ -3,3 +3,42 @@ body {
   height: 100%;
   margin: 0;
 }
+
+header {
+  text-align: center;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+}
+
+.navbar a {
+  padding: 10px;
+  background-color: #3498db; /* Change to your preferred color */
+  text-align: center;
+  display: inline-block; /* Ensures padding works properly */
+}
+
+.image-caption {
+  font-size: 12px; /* Adjust as needed */
+  text-align: center;
+}
+
+#featured-property p {
+  width: 800px;
+  margin: 10px auto;
+  text-align: center;
+}
+
+#details div {
+  float: left;
+  width: 25%;
+}
+
+.bottom-row div {
+  background-color: #eee;
+  text-align: center;
+  width: 25%;
+  display: inline-block; /* Ensures centering and width work properly */
+}
